@@ -1,0 +1,33 @@
+#CalculaChurrasco {
+	max-width: 700px;
+	margin: 0 auto;
+	margin-top: 90px;
+	padding: 100px;
+	background-color:rgba(255, 255, 255, 0.712);
+	border: 2px solid #ccc;
+	border-radius: 90px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#titulo {
+	text-align: center;
+}
+body {
+	background-image: url(https://cdn.pixabay.com/photo/2022/08/25/17/42/spare-ribs-7410914_960_720.jpg);
+	background-size: cover;
+	background-position: center;
+}
+button {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #ffffff;
+	background-color: #b38900;
+	padding: 5px 10px;
+	border-radius: 6px;
+	cursor: pointer;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+button:hover {
+	background-color: #796d00;
+	transform: translateY(-2px);
+}
