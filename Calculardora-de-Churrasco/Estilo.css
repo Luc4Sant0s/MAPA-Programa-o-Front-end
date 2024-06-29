@@ -8,8 +8,9 @@
 	border-radius: 90px;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-#titulo {
+.titulo {
 	text-align: center;
+	font-family: 'Roboto', sans-serif;
 }
 body {
 	background-image: url(https://cdn.pixabay.com/photo/2022/08/25/17/42/spare-ribs-7410914_960_720.jpg);

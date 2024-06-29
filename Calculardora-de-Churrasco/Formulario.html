@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="pt-br">
+<link>
+<meta charset="UTF-8">
+<title>MAPA</title>
+<link rel="stylesheet" type="text/css" href="Estilo.css">
+</head>
+<body>
+    
+    <div id="CalculaChurrasco">
+        <span class="titulo"><h1 id="titulo-1">MAPA</h1></span>
+        <span class="titulo"><h2 id="titulo-2">Calculadora de Churrasco</h2></span>
+        <form id="formulario">
+            
+            <label form="homens">Homens:</label>
+            <input type="number" id="homens" name="homens" min="0" required><br><br>
+        
+            <label form="mulheres">Mulheres:</label>
+            <input type="number" id="mulheres" name="homens" min="0" required><br><br>
+        
+            <label form="criancas">Crianças:</label>
+            <span class="campos"><input type="number" id="criancas" name="homens" min="0" required><br><br></span>
+            
+            <button type="submit">Calcular</button>
+            <button type="button" onclick="clearForm()">Limpar</button>
+
+            
+            <div>
+                <h3>Lista de itens a serem comprados:</h3>
+                <ul id="result" style="list-style-type:disc">
+
+                </ul>
+            </div>
+        </form>
+    </div>
+    <script>
+        function clearForm() {
+                
+                var formulario = document.getElementById('formulario');
+
+                formulario.reset();
+            }
+    </script>
+    <script src="Calculadora.js"></script>
+</body>
+</html>
